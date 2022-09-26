@@ -1,0 +1,39 @@
+#BoxDuo {
+    max-width: 1200px;
+    width: 90vw;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    background: #2A2634;
+    border-top: 5px solid;
+    border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 1;
+    -webkit-mask:
+        /*4*/
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+
+    h2 {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    span {
+        color: #A1A1AA;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    button {
+        background: #8B5CF6;
+        border-radius: 6px;
+        padding: 1.1rem 1rem;
+        cursor: pointer;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+}

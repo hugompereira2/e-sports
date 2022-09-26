@@ -1,0 +1,39 @@
+#Home {
+    max-width: 1344px;
+    margin: 2rem auto 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: white;
+        margin: 2rem 2rem 2.5rem;
+        font-size: 4rem;
+
+        span {
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(89.86deg, #9572FC 23.08%, #43E7AD 33.94%, #E1D55D 44.57%);
+            font-family: 'Inter', sans-serif;
+        }
+    }
+}
+
+@media only screen and (min-width: 1460px) {
+    #Home {
+        height: 100vh;
+        margin: auto;
+
+        h1 {
+            margin: 3rem 0 4rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        text-align: center;
+    }
+}

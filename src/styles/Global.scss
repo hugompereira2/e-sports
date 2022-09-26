@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121214;
+    background-image: url('../assets/background-galaxy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label, h1, h2, h3, span {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+input {
+    font-size: 0.875rem;
+    color: #71717A;
+    font-family: 'Roboto', sans-serif;
+}
